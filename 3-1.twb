@@ -1,0 +1,961 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0611.2007                               -->
+<workbook original-version='18.1' source-build='2023.2.0 (20232.23.0611.2007)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='SAP IDS . 1 2021-SP 49 students (1c_1_SAP Input Data Set 1 2021 SPRING 49 students)' inline='true' name='federated.0kqh4gl0prh8f41aom27x0i5b8sm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='1c_1_SAP Input Data Set 1 2021 SPRING 49 students' name='excel-direct.1p5nqjy1aub6eu1dqw2251uonuwm'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/harry/Downloads/1c_1_SAP Input Data Set 1 2021 SPRING 49 students.xlsx' interpretationMode='0' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.1p5nqjy1aub6eu1dqw2251uonuwm' name='SAP IDS . 1 2021-SP 49 students' table='[&apos;SAP IDS # 1 2021-SP 49 students$&apos;]' type='table'>
+          <columns gridOrigin='A1:U50:no:A1:U50:0' header='yes' outcome='6'>
+            <column datatype='string' name='students' ordinal='0' />
+            <column datatype='real' name='test_01' ordinal='1' />
+            <column datatype='real' name='in_01' ordinal='2' />
+            <column datatype='real' name='in_02' ordinal='3' />
+            <column datatype='real' name='in_06' ordinal='4' />
+            <column datatype='real' name='midterm' ordinal='5' />
+            <column datatype='real' name='lab_01' ordinal='6' />
+            <column datatype='real' name='test_02' ordinal='7' />
+            <column datatype='real' name='cp_step_01' ordinal='8' />
+            <column datatype='real' name='cp_step_02' ordinal='9' />
+            <column datatype='real' name='hw_8 part(s) 2,3' ordinal='10' />
+            <column datatype='real' name='course project pres.' ordinal='11' />
+            <column datatype='real' name='course project files' ordinal='12' />
+            <column datatype='real' name='final_exam' ordinal='13' />
+            <column datatype='real' name='extra' ordinal='14' />
+            <column datatype='real' name='in_05' ordinal='15' />
+            <column datatype='real' name='hw_04' ordinal='16' />
+            <column datatype='real' name='in_4 part(s) 1' ordinal='17' />
+            <column datatype='real' name='in_4 part(s) 2' ordinal='18' />
+            <column datatype='real' name='total score' ordinal='19' />
+            <column datatype='real' name='final_score' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.1p5nqjy1aub6eu1dqw2251uonuwm' name='SAP IDS . 1 2021-SP 49 students' table='[&apos;SAP IDS # 1 2021-SP 49 students$&apos;]' type='table'>
+          <columns gridOrigin='A1:U50:no:A1:U50:0' header='yes' outcome='6'>
+            <column datatype='string' name='students' ordinal='0' />
+            <column datatype='real' name='test_01' ordinal='1' />
+            <column datatype='real' name='in_01' ordinal='2' />
+            <column datatype='real' name='in_02' ordinal='3' />
+            <column datatype='real' name='in_06' ordinal='4' />
+            <column datatype='real' name='midterm' ordinal='5' />
+            <column datatype='real' name='lab_01' ordinal='6' />
+            <column datatype='real' name='test_02' ordinal='7' />
+            <column datatype='real' name='cp_step_01' ordinal='8' />
+            <column datatype='real' name='cp_step_02' ordinal='9' />
+            <column datatype='real' name='hw_8 part(s) 2,3' ordinal='10' />
+            <column datatype='real' name='course project pres.' ordinal='11' />
+            <column datatype='real' name='course project files' ordinal='12' />
+            <column datatype='real' name='final_exam' ordinal='13' />
+            <column datatype='real' name='extra' ordinal='14' />
+            <column datatype='real' name='in_05' ordinal='15' />
+            <column datatype='real' name='hw_04' ordinal='16' />
+            <column datatype='real' name='in_4 part(s) 1' ordinal='17' />
+            <column datatype='real' name='in_4 part(s) 2' ordinal='18' />
+            <column datatype='real' name='total score' ordinal='19' />
+            <column datatype='real' name='final_score' ordinal='20' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:U50:no:A1:U50:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>6</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>students</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[students]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>students</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>test_01</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[test_01]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>test_01</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_01</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[in_01]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>in_01</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_02</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[in_02]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>in_02</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_06</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[in_06]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>in_06</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>midterm</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[midterm]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>midterm</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lab_01</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lab_01]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>lab_01</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>test_02</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[test_02]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>test_02</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cp_step_01</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cp_step_01]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>cp_step_01</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cp_step_02</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cp_step_02]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>cp_step_02</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hw_8 part(s) 2,3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hw_8 part(s) 2,3]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>hw_8 part(s) 2,3</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>course project pres.</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[course project pres.]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>course project pres.</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>course project files</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[course project files]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>course project files</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>final_exam</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[final_exam]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>final_exam</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>extra</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[extra]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>extra</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_05</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[in_05]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>in_05</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hw_04</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hw_04]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>hw_04</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_4 part(s) 1</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[in_4 part(s) 1]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>in_4 part(s) 1</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>in_4 part(s) 2</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[in_4 part(s) 2]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>in_4 part(s) 2</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total score]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>total score</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>final_score</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[final_score]</local-name>
+            <parent-name>[SAP IDS . 1 2021-SP 49 students]</parent-name>
+            <remote-alias>final_score</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='SAP IDS . 1 2021-SP 49 students' datatype='table' name='[__tableau_internal_object_id__].[SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36]' role='measure' type='quantitative' />
+      <column caption='Course Project Files' datatype='real' name='[course project files]' role='measure' type='quantitative' />
+      <column caption='Course Project Pres.' datatype='real' name='[course project pres.]' role='measure' type='quantitative' />
+      <column caption='Cp Step 01' datatype='real' name='[cp_step_01]' role='measure' type='quantitative' />
+      <column caption='Cp Step 02' datatype='real' name='[cp_step_02]' role='measure' type='quantitative' />
+      <column caption='Extra' datatype='real' name='[extra]' role='measure' type='quantitative' />
+      <column caption='Final Exam' datatype='real' name='[final_exam]' role='measure' type='quantitative' />
+      <column caption='Final Score' datatype='real' name='[final_score]' role='measure' type='quantitative' />
+      <column caption='Hw 04' datatype='real' name='[hw_04]' role='measure' type='quantitative' />
+      <column caption='Hw 8 Part(S) 2,3' datatype='real' name='[hw_8 part(s) 2,3]' role='measure' type='quantitative' />
+      <column caption='In 01' datatype='real' name='[in_01]' role='measure' type='quantitative' />
+      <column caption='In 02' datatype='real' name='[in_02]' role='measure' type='quantitative' />
+      <column caption='In 05' datatype='real' name='[in_05]' role='measure' type='quantitative' />
+      <column caption='In 06' datatype='real' name='[in_06]' role='measure' type='quantitative' />
+      <column caption='In 4 Part(S) 1' datatype='real' name='[in_4 part(s) 1]' role='measure' type='quantitative' />
+      <column caption='In 4 Part(S) 2' datatype='real' name='[in_4 part(s) 2]' role='measure' type='quantitative' />
+      <column caption='Lab 01' datatype='real' name='[lab_01]' role='measure' type='quantitative' />
+      <column caption='Midterm' datatype='real' name='[midterm]' role='measure' type='quantitative' />
+      <column caption='Students' datatype='string' name='[students]' role='dimension' type='nominal' />
+      <column caption='Test 01' datatype='real' name='[test_01]' role='measure' type='quantitative' />
+      <column caption='Test 02' datatype='real' name='[test_02]' role='measure' type='quantitative' />
+      <column caption='Total Score' datatype='real' name='[total score]' role='measure' type='quantitative' />
+      <column-instance column='[course project files]' derivation='Avg' name='[avg:course project files:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[course project pres.]' derivation='Avg' name='[avg:course project pres.:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cp_step_01]' derivation='Avg' name='[avg:cp_step_01:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[cp_step_02]' derivation='Avg' name='[avg:cp_step_02:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[extra]' derivation='Avg' name='[avg:extra:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[final_exam]' derivation='Avg' name='[avg:final_exam:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[final_score]' derivation='Avg' name='[avg:final_score:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hw_04]' derivation='Avg' name='[avg:hw_04:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[hw_8 part(s) 2,3]' derivation='Avg' name='[avg:hw_8 part(s) 2,3:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[in_01]' derivation='Avg' name='[avg:in_01:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[in_02]' derivation='Avg' name='[avg:in_02:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[in_05]' derivation='Avg' name='[avg:in_05:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[in_06]' derivation='Avg' name='[avg:in_06:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[in_4 part(s) 1]' derivation='Avg' name='[avg:in_4 part(s) 1:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[in_4 part(s) 2]' derivation='Avg' name='[avg:in_4 part(s) 2:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[lab_01]' derivation='Avg' name='[avg:lab_01:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[midterm]' derivation='Avg' name='[avg:midterm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[test_01]' derivation='Avg' name='[avg:test_01:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[test_02]' derivation='Avg' name='[avg:test_02:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='tableau-10' type='palette'>
+            <map to='#17becf'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_01:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:course project files:qk]&quot;</bucket>
+            </map>
+            <map to='#1f77b4'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_02:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:cp_step_01:qk]&quot;</bucket>
+            </map>
+            <map to='#2ca02c'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_06:qk]&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:hw_04:qk]&quot;</bucket>
+            </map>
+            <map to='#7f7f7f'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:test_01:qk]&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:final_exam:qk]&quot;</bucket>
+            </map>
+            <map to='#8c564b'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:lab_01:qk]&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:extra:qk]&quot;</bucket>
+            </map>
+            <map to='#9467bd'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_4 part(s) 2:qk]&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:hw_8 part(s) 2,3:qk]&quot;</bucket>
+            </map>
+            <map to='#bcbd22'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:test_02:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:cp_step_02:qk]&quot;</bucket>
+            </map>
+            <map to='#d62728'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_4 part(s) 1:qk]&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:final_score:qk]&quot;</bucket>
+            </map>
+            <map to='#e377c2'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:midterm:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:course project pres.:qk]&quot;</bucket>
+            </map>
+            <map to='#ff7f0e'>
+              <bucket>&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_05:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='SAP IDS . 1 2021-SP 49 students' id='SAP IDS . 1 2021-SP 49 students_1F2E2315D11944AF88D9D8C306638F36'>
+            <properties context=''>
+              <relation connection='excel-direct.1p5nqjy1aub6eu1dqw2251uonuwm' name='SAP IDS . 1 2021-SP 49 students' table='[&apos;SAP IDS # 1 2021-SP 49 students$&apos;]' type='table'>
+                <columns gridOrigin='A1:U50:no:A1:U50:0' header='yes' outcome='6'>
+                  <column datatype='string' name='students' ordinal='0' />
+                  <column datatype='real' name='test_01' ordinal='1' />
+                  <column datatype='real' name='in_01' ordinal='2' />
+                  <column datatype='real' name='in_02' ordinal='3' />
+                  <column datatype='real' name='in_06' ordinal='4' />
+                  <column datatype='real' name='midterm' ordinal='5' />
+                  <column datatype='real' name='lab_01' ordinal='6' />
+                  <column datatype='real' name='test_02' ordinal='7' />
+                  <column datatype='real' name='cp_step_01' ordinal='8' />
+                  <column datatype='real' name='cp_step_02' ordinal='9' />
+                  <column datatype='real' name='hw_8 part(s) 2,3' ordinal='10' />
+                  <column datatype='real' name='course project pres.' ordinal='11' />
+                  <column datatype='real' name='course project files' ordinal='12' />
+                  <column datatype='real' name='final_exam' ordinal='13' />
+                  <column datatype='real' name='extra' ordinal='14' />
+                  <column datatype='real' name='in_05' ordinal='15' />
+                  <column datatype='real' name='hw_04' ordinal='16' />
+                  <column datatype='real' name='in_4 part(s) 1' ordinal='17' />
+                  <column datatype='real' name='in_4 part(s) 2' ordinal='18' />
+                  <column datatype='real' name='total score' ordinal='19' />
+                  <column datatype='real' name='final_score' ordinal='20' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SAP IDS . 1 2021-SP 49 students (1c_1_SAP Input Data Set 1 2021 SPRING 49 students)' name='federated.0kqh4gl0prh8f41aom27x0i5b8sm' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0kqh4gl0prh8f41aom27x0i5b8sm'>
+            <column-instance column='[course project files]' derivation='Avg' name='[avg:course project files:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[course project pres.]' derivation='Avg' name='[avg:course project pres.:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cp_step_01]' derivation='Avg' name='[avg:cp_step_01:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[cp_step_02]' derivation='Avg' name='[avg:cp_step_02:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[extra]' derivation='Avg' name='[avg:extra:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[final_exam]' derivation='Avg' name='[avg:final_exam:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[final_score]' derivation='Avg' name='[avg:final_score:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[hw_04]' derivation='Avg' name='[avg:hw_04:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[hw_8 part(s) 2,3]' derivation='Avg' name='[avg:hw_8 part(s) 2,3:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[in_01]' derivation='Avg' name='[avg:in_01:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[in_02]' derivation='Avg' name='[avg:in_02:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[in_05]' derivation='Avg' name='[avg:in_05:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[in_06]' derivation='Avg' name='[avg:in_06:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[in_4 part(s) 1]' derivation='Avg' name='[avg:in_4 part(s) 1:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[in_4 part(s) 2]' derivation='Avg' name='[avg:in_4 part(s) 2:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[lab_01]' derivation='Avg' name='[avg:lab_01:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[midterm]' derivation='Avg' name='[avg:midterm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[test_01]' derivation='Avg' name='[avg:test_01:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[test_02]' derivation='Avg' name='[avg:test_02:qk]' pivot='key' type='quantitative' />
+            <column caption='Course Project Files' datatype='real' name='[course project files]' role='measure' type='quantitative' />
+            <column caption='Course Project Pres.' datatype='real' name='[course project pres.]' role='measure' type='quantitative' />
+            <column caption='Cp Step 01' datatype='real' name='[cp_step_01]' role='measure' type='quantitative' />
+            <column caption='Cp Step 02' datatype='real' name='[cp_step_02]' role='measure' type='quantitative' />
+            <column caption='Extra' datatype='real' name='[extra]' role='measure' type='quantitative' />
+            <column caption='Final Exam' datatype='real' name='[final_exam]' role='measure' type='quantitative' />
+            <column caption='Final Score' datatype='real' name='[final_score]' role='measure' type='quantitative' />
+            <column caption='Hw 04' datatype='real' name='[hw_04]' role='measure' type='quantitative' />
+            <column caption='Hw 8 Part(S) 2,3' datatype='real' name='[hw_8 part(s) 2,3]' role='measure' type='quantitative' />
+            <column caption='In 01' datatype='real' name='[in_01]' role='measure' type='quantitative' />
+            <column caption='In 02' datatype='real' name='[in_02]' role='measure' type='quantitative' />
+            <column caption='In 05' datatype='real' name='[in_05]' role='measure' type='quantitative' />
+            <column caption='In 06' datatype='real' name='[in_06]' role='measure' type='quantitative' />
+            <column caption='In 4 Part(S) 1' datatype='real' name='[in_4 part(s) 1]' role='measure' type='quantitative' />
+            <column caption='In 4 Part(S) 2' datatype='real' name='[in_4 part(s) 2]' role='measure' type='quantitative' />
+            <column caption='Lab 01' datatype='real' name='[lab_01]' role='measure' type='quantitative' />
+            <column caption='Midterm' datatype='real' name='[midterm]' role='measure' type='quantitative' />
+            <column-instance column='[students]' derivation='None' name='[none:students:nk]' pivot='key' type='nominal' />
+            <column caption='Students' datatype='string' name='[students]' role='dimension' type='nominal' />
+            <column caption='Test 01' datatype='real' name='[test_01]' role='measure' type='quantitative' />
+            <column caption='Test 02' datatype='real' name='[test_02]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:course project files:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:course project pres.:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:cp_step_01:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:cp_step_02:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:extra:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:final_exam:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:final_score:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:hw_04:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:hw_8 part(s) 2,3:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_01:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_02:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_05:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_06:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_4 part(s) 1:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:in_4 part(s) 2:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:lab_01:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:midterm:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:test_01:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[avg:test_02:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <filter class='categorical' column='[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[none:students:nk]'>
+            <groupfilter function='except' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[none:students:nk]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:students:nk]' member='&quot;Max Points&quot;' />
+                <groupfilter function='member' level='[none:students:nk]' member='%null%' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[none:students:nk]</column>
+            <column>[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[Multiple Values]' scope='rows' value='Average Score' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[Multiple Values]</rows>
+        <cols>([federated.0kqh4gl0prh8f41aom27x0i5b8sm].[none:students:nk] / [federated.0kqh4gl0prh8f41aom27x0i5b8sm].[:Measure Names])</cols>
+      </table>
+      <simple-id uuid='{6C4B384A-AC90-4823-8F10-35498235BFEB}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='100'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='100'>
+            <card pane-specification-id='0' param='[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[:Measure Names]</field>
+            <field>[federated.0kqh4gl0prh8f41aom27x0i5b8sm].[none:students:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D3FDC172-7059-40E6-A889-1AA34D00BD88}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      RK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
